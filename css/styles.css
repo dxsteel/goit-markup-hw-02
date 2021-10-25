@@ -170,6 +170,7 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   text-decoration: none;
+  cursor: pointer;
 }
 .button-portfolio:focus,
 .button-portfolio:hover {
@@ -185,4 +186,4 @@ ul {
   line-height: 1.6;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
+  cursor: pointer;
