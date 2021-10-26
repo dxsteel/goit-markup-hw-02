@@ -1,6 +1,12 @@
+:root{
+  --primary-text-color: #212121;
+  --p-text-color:#757575;
+  --accent-color: #2196F3;
+}
+
 body {
   background-color: #e5e5e5;
-  color: #212121;
+  color:var(--primary-text-color);
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
@@ -15,8 +21,7 @@ ul {
   background-color: #ffffff;
 }
 .site-nav {
-  color: #212121;
-  font-style: 400;
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -25,18 +30,13 @@ ul {
 }
 .site-nav:hover,
 .site-nav:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts-header {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--p-text-color);
 }
 
 /* футер */
@@ -54,8 +54,6 @@ ul {
 }
 .address {
   color: #ffffff;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -71,10 +69,10 @@ ul {
   text-decoration: none;
 }
 .textcolor-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .textcolor-studio {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .textcolor-studio-footer {
   color: #ffffff;
@@ -92,16 +90,15 @@ ul {
 }
 
 .feature-text {
-  color: #757575;
+  color: var(--p-text-color);
   font-style: 400;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
 .title {
-  color: #212121;
+  color: var(--primary-text-color);
   font-style: 400;
   font-weight: 700;
   font-size: 14px;
@@ -114,7 +111,7 @@ ul {
   background-color: #f5f4fa;
 }
 .section-hero {
-  color: #212121;
+  color: var(--primary-text-color);
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
@@ -123,7 +120,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .section-title-names {
-  color: #212121;
+  color: var(--primary-text-color);
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
@@ -136,7 +133,7 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--p-text-color);
 }
 
 /* страница портфолио */
@@ -144,7 +141,7 @@ ul {
 /* работы команды */
 
 .section-work-list {
-  color: #212121;
+  color: var(--primary-text-color);
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -157,14 +154,15 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--p-text-color);
 }
 
 /* кнопки */
 
 .button-primary {
+  font-family: Roboto;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -175,10 +173,11 @@ ul {
 .button-portfolio:focus,
 .button-portfolio:hover {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 .button-portfolio {
-  color: #212121;
+  font-family: Roboto;
+  color: var(--primary-text-color);
   background-color: #f5f4fa;
   font-style: normal;
   font-weight: 500;
